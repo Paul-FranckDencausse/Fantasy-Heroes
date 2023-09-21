@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fantasie Heros</title>
+<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    @font-face {
+        font-family: "RobotoSerif";
+        src: url(./fonts/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+    }
+    * {
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        box-sizing: border-box;
+        text-decoration: none; 
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    li img {
+        width: 10%;
+        border-radius: 30px;
+    }
+.tarifs{
+    margin: 10%;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+.tarifs table{
+    width: 100%;
+    
+}
+.tarifs th, .tarifs td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid black ;
+}
+
+.tarifs th{
+    background-color: green;
+}
+
+.h2{
+    text-align: center;
+    margin: 33%;
+}
+</style>
+</head>
+<body>
+<header>
+    <nav class="navContainer">
+        <ul class="navLinkContainer">
+            <li class="navLink">
+                <a href="index.html">
+                    <img class="imgNav" src="../Images/logo.jpeg" alt="ici description de l'image">
+                </a>
+            </li>
+            <li class="navLink">
+                <a href="perso.html">
+                    Personnages
+                </a>
+            </li>
+            <li class="navLink">
+                <a href="tarifs.html">
+                    Réservations
+                </a>
+            </li>
+            <li class="navLink">
+                <a href="">
+                    Connexion
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section class="tarifs">
+    <h2>Nos tarifs</h2>
+<table>
+    <tr> 
+        <th>Prestation</th>
+        <th>Prix</th>
+    </tr>
+    <tr>
+        <td>Rencontre en groupe</td>
+        <td>100£ par tête de pipe (10% de réduction si plus de 20 personnes)</td>
+    </tr>
+    <tr>
+        <td>Entretien en tête à tête</td>
+        <td>200£ par heure </td>
+    </tr>
+    <tr>
+        <td>Accès VIP plusieurs personnages en même temps</td>
+        <td>150£/personnage/heure</td>
+    </tr>
+
+
+</table>
+</section>
+</body>
+</html>

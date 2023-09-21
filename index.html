@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!-- Déclaration du type de document HTML -->
+<html lang="en"> <!-- Définition de la langue de la page (en anglais) -->
+<head>
+    <!-- Section d'en-tête où vous spécifiez les métadonnées et les liens vers des fichiers externes -->
+
+    <!-- Inclusion d'une feuille de style CSS externe -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <!-- Définition de l'encodage des caractères -->
+    <meta charset="UTF-8">
+
+    <!-- Définition de la vue initiale de la page pour les appareils mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titre de la page qui s'affiche dans l'onglet du navigateur -->
+    <title>Crazy Dev. Les persos</title>
+
+    <!-- Balise meta pour la description de la page, utile pour le référencement (SEO) -->
+    <meta name="description" content="ici description de ma page pour le seo">
+
+    <!-- Inclusion de la bibliothèque Bootstrap CSS depuis un CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Inclusion de la bibliothèque jQuery depuis un CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Inclusion de la bibliothèque Bootstrap JavaScript depuis un CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Corps de la page -->
+
+    <header>
+        <!-- Section d'en-tête de la page -->
+
+        <!-- Barre de navigation Bootstrap -->
+        <nav class="navContainer">
+            <ul class="navLinkContainer">
+                <!-- Éléments de la barre de navigation -->
+                <li class="navLink">
+                    <a href="index.html">
+                        <!-- Lien vers la page d'accueil avec une image -->
+                        <img class="imgNav" src="../Images/logo.jpeg" alt="ici description de l'image">
+                    </a>
+                </li>
+                <li class="navLink">
+                    <a href="perso.html">
+                        <!-- Lien vers la page des personnages -->
+                        Personnages
+                    </a>
+                </li>
+                <li class="navLink">
+                    <a href="tarifs.html">
+                        <!-- Lien vers la page de réservations -->
+                        Réservations
+                    </a>
+                </li>
+                <li class="navLink">
+                    <a href="">
+                        <!-- Lien vers la page de connexion -->
+                        Connexion
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Diaporama Bootstrap dans un conteneur -->
+        <div class="headerTitle">
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicateurs de diaporama -->
+                    <ol class="carousel-indicators">
+                        <!-- Indicateurs pour chaque diapositive -->
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Diapositives du diaporama -->
+                    <div class="carousel-inner">
+                        <!-- Première diapositive (active) -->
+                        <div class="item active">
+                            <img src="../Images/izuku midoriya.jpg" alt="Izuku Midoriya de My Hero Academia" style="width:100%;">
+                        </div>
+
+                        <!-- Deuxième diapositive -->
+                        <div class="item">
+                            <img src="..//Images/green lantern.jpg" alt="Green Lantern de DC comics" style="width:100%;">
+                        </div>
+
+                        <!-- Troisième diapositive -->
+                        <div class="item">
+                            <img src="../Images/luigi.jpg" alt="Luigi de Super Mario Bros, Nintendo" style="width:100%;">
+                        </div>
+                    </div>
+
+                    <!-- Contrôles du diaporama (boutons précédent/suivant) -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section principale du contenu de la page (vide dans cet exemple) -->
+    </main>
+
+    <footer>
+        <!-- Section du pied de page (vide dans cet exemple) -->
+    </footer>
+</body>
+</html>
